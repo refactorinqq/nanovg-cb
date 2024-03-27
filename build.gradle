@@ -34,19 +34,14 @@ switch (OperatingSystem.current()) {
 repositories {
 	maven { url = 'https://jitpack.io' }
 	mavenCentral()
+	maven {
+	    name = "cursed-mappings"
+	    url = "https://raw.githubusercontent.com/BleachDev/cursed-mappings/main/"
+	}
 }
 
 
 loom {
-	// Only needed for versions not available from vanilla launcher by default.
-	// customMinecraftManifest.set("https://meta.legacyfabric.net/v2/manifest/${minecraft_version}")
-
-	// Required by 1.7.x
-	// runs {
-	// 	client {
-	// 		programArgs "--userProperties", "{}"
-	// 	}
-	// }
 }
 
 dependencies {
