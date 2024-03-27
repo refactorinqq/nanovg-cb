@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.refactoring.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "lwjgl.MixinNanoVGGLConfig"
+  ],
+  "client": [
+    "client.MixinMinecraftClient"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

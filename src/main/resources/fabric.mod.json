@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "nanovgcb",
+  "version": "${version}",
+  "name": "NanoVG Base",
+  "description": "Base for all my projects.",
+  "authors": [
+    "Refactoring"
+  ],
+  "contact": {
+    "homepage": "https://github.com/refactorinqq/NanoVGCB",
+    "sources": "https://github.com/refactorinqq/NanoVGCB"
+  },
+  "license": "CC-BY-4.0",
+  "icon": "assets/modid/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.refactoring.ExampleMod"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "minecraft": "1.8.9"
+  },
+  "suggests": {
+  }
+}
